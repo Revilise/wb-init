@@ -1,0 +1,6 @@
+@import '../mixins/flex.mixin.scss';
+
+header {
+    background: var(--base-0);
+    @include flexbox(column);
+}
